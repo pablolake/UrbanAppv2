@@ -7,8 +7,9 @@ export default function Page() {
       <View style={styles.main}>
         <Stack.Screen options={{ title: 'Overview' }} />
         <View>
-          <Text style={styles.title}>Hello World</Text>
-          <Text style={styles.subtitle}>This is the first page of your app.</Text>
+          <Text style={styles.title}>UrbanApp</Text>
+          <Text style={styles.subtitle}>Tu comunidad Virtual</Text>
+          <image></image>
         </View>
         <Link href={{ pathname: '/details', params: { name: 'Dan' } }} asChild>
           <TouchableOpacity style={styles.button}>
