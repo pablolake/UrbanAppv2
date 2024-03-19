@@ -7,6 +7,7 @@ export default function Details() {
   const router = useRouter();
 
   const BackButton = () => (
+    
     <TouchableOpacity onPress={router.back}>
       <View style={styles.backButton}>
         <Feather name="chevron-left" size={16} color="#007AFF" />

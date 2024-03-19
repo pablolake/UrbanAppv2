@@ -1,6 +1,6 @@
 import { Stack, Link } from 'expo-router';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-
+import MyReactNativeForm from './form'
 export default function Page() {
   return (
     <View style={styles.container}>
@@ -9,7 +9,8 @@ export default function Page() {
         <View>
           <Text style={styles.title}>UrbanApp</Text>
           <Text style={styles.subtitle}>Tu comunidad Virtual</Text>
-          <image></image>
+          <MyReactNativeForm></MyReactNativeForm>
+          
         </View>
         <Link href={{ pathname: '/details', params: { name: 'Dan' } }} asChild>
           <TouchableOpacity style={styles.button}>
